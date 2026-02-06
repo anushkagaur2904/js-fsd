@@ -34,3 +34,22 @@ const id = Symbol('123')
 const id2 = Symbol('123')
 console.log(id===id2);//false cuz unique hai dono
 
+// +++++++++++++++++++++++++
+
+//memory of two types => stack(primitve datatypes mein) and heap(non primitive mein)
+
+let myYtname = "hello"
+let anotherName = myYtname
+anotherName = "bye"
+console.log(myYtname);
+console.log(anotherName)
+
+let userOne = {
+    email:"anushka@google.com",
+    upi:"@yaml"
+}
+let userTwo = userOne
+userTwo.email = "anushka@hotmail.com"
+console.log(userOne.email);
+console.log(userTwo.email);
+
