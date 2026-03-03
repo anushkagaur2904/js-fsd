@@ -1,39 +1,39 @@
 let score = 33
-console.log(typeof score)
-console.log(typeof(score))//dono tareeke same hai
+console.log(typeof score)//number
+console.log(typeof(score))//dono tareeke same hai => number
 
 let score1 = "33"
-console.log(typeof score1)
+console.log(typeof score1)//string
 let valueInNumber = Number(score1)
-console.log(typeof valueInNumber)
+console.log(typeof valueInNumber)//number
 
 let score2 = "33abc"
-let valueInNumber1 = Number(score2)
-console.log(typeof valueInNumber1)
-console.log(valueInNumber1)
+let valueInNumber1 = Number(score2)//string
+console.log(typeof valueInNumber1)//number
+console.log(valueInNumber1)//NaN
 
 let score3 = null
 let valueInNumber2 = Number(score3)
-console.log(typeof valueInNumber2)
-console.log(valueInNumber2)
+console.log(typeof valueInNumber2)//number
+console.log(valueInNumber2)//0
 
 let score4 = true
 let valueInNumber3 = Number(score4)
-console.log(typeof valueInNumber3)
-console.log(valueInNumber3)
+console.log(typeof valueInNumber3)//number
+console.log(valueInNumber3)//1
 
 let score5 = "anushka"
 let valueInNumber4 = Number(score5)
-console.log(typeof valueInNumber4)
-console.log(valueInNumber4)
+console.log(typeof valueInNumber4)//number
+console.log(valueInNumber4)//NaN
 
  // "33" => 33
  // "33abc" => Nan but typeof is number
  // true => 1
 
-let isLoggedin = true
+let isLoggedin = 1
 let booleanisLoggedin = Boolean(isLoggedin)
-console.log(booleanisLoggedin);
+console.log(booleanisLoggedin);//true
 
 let isLoggedin1 = ""
 let booleanisLoggedin1 = Boolean(isLoggedin1)
@@ -50,5 +50,5 @@ console.log(booleanisLoggedin2);//true
 
 let someNum = 33
 let stringNum = String(someNum)
-console.log(typeof stringNum);
-console.log(stringNum);
+console.log(typeof stringNum);//string
+console.log(stringNum);//33
